@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation / Notes
+    url: https://github.com/masaki-mori-1986/local-llm-chat
+    about: "追加情報やノートはリポジトリを参照してください"
