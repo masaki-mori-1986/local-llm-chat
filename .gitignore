@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+dist/
+out/
+build/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env
+.env
+.env.*.local
+
+# Logs
+*.log
+logs/
+debug.log*
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# System
+.DS_Store
