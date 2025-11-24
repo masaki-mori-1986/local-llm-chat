@@ -1,0 +1,87 @@
+{
+  // =========================
+  // Basic Editor Settings
+  // =========================
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // =========================
+  // Prettier + ESLint
+  // =========================
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.prettierPath": "node_modules/prettier",
+  "prettier.requireConfig": true,
+  "prettier.useTabs": false,
+
+  // =========================
+  // TypeScript Settings
+  // =========================
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // =========================
+  // Better Comments
+  // =========================
+  "better-comments.highlightPlainText": true,
+
+  // =========================
+  // REST Client
+  // =========================
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "ollama_host": "http://localhost:11434"
+    }
+  },
+  "rest-client.requestTimeout": 30000,
+  "rest-client.previewOption": "full",
+
+  // =========================
+  // Code Spell Checker
+  // =========================
+  "cSpell.language": "en,ja",
+  "cSpell.enabledFiletypes": ["javascript", "typescript", "markdown", "json"],
+  "cSpell.userWords": [
+    "Ollama",
+    "llama",
+    "QLoRA",
+    "LoRA",
+    "GGUF",
+    "TypeScript",
+    "Nextjs"
+  ],
+
+  // =========================
+  // dotenv
+  // =========================
+  "files.associations": {
+    ".env": "dotenv",
+    ".env.*": "dotenv"
+  },
+
+  // =========================
+  // Explorer Convenience
+  // =========================
+  "explorer.compactFolders": false,
+
+  // =========================
+  // Markdown
+  // =========================
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+  "markdown-preview-enhanced.enableEmojiSyntax": true
+}
